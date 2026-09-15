@@ -36,7 +36,7 @@ API_KEY=os.getenv("BITGET_API_KEY","").strip()
 SECRET_KEY=os.getenv("BITGET_SECRET_KEY","").strip() or os.getenv("BITGET_API_SECRET","").strip()
 PASSPHRASE=os.getenv("BITGET_PASSPHRASE","").strip() or os.getenv("BITGET_API_PASSPHRASE","").strip() or os.getenv("BITGET_PASSPHRASE_API","").strip()
 
-MY_ID=7679796977
+MY_ID=6636692760
 STATE_PATHS=["/data/bot_state_futures.json", "/app/data/bot_state_futures.json", "bot_state_futures.json", "/tmp/bot_state_futures.json"]
 
 def get_state_path():
